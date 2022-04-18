@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6{
     color: white;
 }
 .left{
-    width: 7%;
+    width: 5%;
     height: 100%;
     background-color: #23272a;
 }
@@ -78,11 +78,12 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .main{
-    width: 93%;
+    width: 95%;
     height: 100%;
     background-color: #2c2f33;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+    display: flex;
 }
 .group_logos{
     width: 100%;
@@ -96,6 +97,7 @@ h1, h2, h3, h4, h5, h6{
     background-color: #282b30;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+    margin: 0;
 }
 .m_left_top{
     width: 100%;
@@ -107,7 +109,7 @@ h1, h2, h3, h4, h5, h6{
 }
 .m_left_middle{
     width: 100%;
-    height: 87%;
+    height: 84.5%;
     background-color: #282b30;
 }
 .find_or_start{
@@ -158,7 +160,138 @@ h1, h2, h3, h4, h5, h6{
     margin-right: 10px;
 }
 .friends_h2{
-    color: white;
+    color:gray;
     font-size: 1.15em;
     letter-spacing: 3px;
+}
+.people_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 25px;
+    object-fit: cover;
+}
+.people{
+    display: flex;
+    align-items: center;
+}
+.people_p{
+    margin-left: 4px;
+    letter-spacing: 2px;
+    color: rgb(141, 140, 140);
+}
+
+.m_left_bottom{
+    width: 100%;
+    height: 7%;
+    background: #202327;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.m_left_bottom_name{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.tag_name > h3, .tag_name > h4{
+    margin: 0;
+    font-size: 1em;
+    color: gray;
+} 
+.main_me{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 25px;
+    object-fit: cover;
+}
+.m_left_bottom_tools{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.tools_img{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
+    object-fit: contain;
+}
+.m_main{
+    width: 82%;
+    height: 100%;
+}
+.m_main_top{
+    width: 100%;
+    height: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.m_main_top_left{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin: 0;
+    width: 80%;
+}
+.m_main_top_right{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    width: 20%;
+}
+.m_main_top_right > *{
+    position: relative;
+    right: -140px;
+}
+.person{
+    width: 3%;
+    object-fit: contain;
+    margin-left: 20px;
+}
+.m_main_top_left > h2{
+    color: rgb(173, 172, 172);
+    margin-left: 15px;
+    font-size: 1.2em;
+}
+.top_hr{
+    width: 2px;
+    height: 75%;
+    background: #3c4046;
+    margin: 0 25px;
+    margin-top: 10px;
+    border: 0;
+    margin-bottom: 7px;
+}
+.add_friend > h2{
+    color: rgb(173, 172, 172);
+    font-size: 1.2em;
+}
+.add_friend{
+    width: 14%;
+    height: 67%;
+    background: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.message{
+    width: 12%;
+    object-fit: contain;
+}
+.main_hr{
+    border: 0;
+    width: 97%;
+    height: 2px;
+    background: #32353a;
+    margin: 0;
+    margin: auto;
 }

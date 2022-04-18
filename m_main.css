@@ -1,0 +1,27 @@
+.m_main{
+    width: 82%;
+    height: 100%;
+}
+.m_main_top{
+    width: 100%;
+    height: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.m_main_top_left{
+    display: flex;
+}
+.m_main_top_right{
+    display: flex;
+}
+.m_left_middle_friends{
+    width: 13%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.friends_h2{
+    color:gray;
+    font-size: 1.15em;
+    letter-spacing: 3px;
+}
