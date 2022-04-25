@@ -295,3 +295,67 @@ h1, h2, h3, h4, h5, h6{
     margin: 0;
     margin: auto;
 }
+.m_main_left{
+    width: 60%;
+    height: 93.7%;
+    margin: 0;
+}
+.m_main_left > *{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.m_profile{
+    width: 90%;
+    height: 13%;
+    border-top: #52565e solid 0.5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.m_profile_img{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    margin-left: 20px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.m_profile_left{
+    display: flex;  
+    align-items: center;
+}
+.m_profile_name{
+    margin: 0;
+    color: #676b72;
+}
+.m_status{
+    margin: 0;
+    color: #676b72;
+    margin-top: 5px;
+}
+.m_profile_button{
+    width:60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #23272a;
+    border-radius: 50%;
+    margin-left: 400px;
+}
+.m_profile_button_img{
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+}
+.m_main_right{
+    background: #282b30;
+    width: 40%;
+    height: 100%;
+    margin: 0;
+}
+.main_bottom{
+    width: 100%;
+    height: 93.7%;
+    display: flex;
+}
